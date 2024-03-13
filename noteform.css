@@ -1,0 +1,59 @@
+body h1,
+body p,
+body input,
+body label,
+body button {
+  font-family: 'Hanken Grotesk', sans-serif !important;
+  letter-spacing: -0.5px !important;
+}
+
+body button {
+  font-weight: 400;
+  height: 52px;
+  box-shadow: none !important;
+}
+
+input {
+  font-size: 16px !important;
+  color: #333 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #d6d6d6 !important;
+  padding: 16px !important;
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d6d6d6 !important;
+}
+
+#app input[type='checkbox']:checked {
+  background-color: #e15741 !important;
+}
+
+p,
+label,
+label.font-semibold {
+  font-weight: 300;
+  font-family: 'Hanken Grotesk', sans-serif !important;
+}
+
+.text-sm {
+  font-size: 16px !important;
+}
+
+.rounded-lg {
+  border-radius: 8px !important;
+}
+
+.shadow-sm {
+  box-shadow: none !important;
+}
+.border {
+  border-color: #d6d6d6 !important;
+}
+
+.text-gray-700 {
+  color: #464646 !important;
+}
